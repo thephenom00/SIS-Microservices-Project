@@ -102,6 +102,12 @@ Upon starting the application, the database will be automatically initialized wi
 - **Parallels**: Multiple parallels for each course are created with varying capacities and scheduled time slots.
 
 ## Project UI
-  <video src="documentation/project-ui.mov">
+
+
+https://github.com/user-attachments/assets/5e294b64-1452-471f-ae16-c91907dae5fc
+
+
+
+
 
 
