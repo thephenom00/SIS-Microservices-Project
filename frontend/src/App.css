@@ -1,0 +1,150 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+  background-color: #f4f4f9;
+  color: #000;
+  line-height: 1.6;
+  /*padding: 20px;*/
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+}
+
+/* Menu Styling */
+.menu {
+  background-color: #007BFF;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.menu ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  margin: 0;
+}
+
+.menu li a {
+  display: block;
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.menu li a:hover {
+  background-color: #0056b3;
+}
+
+form {
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button Styling */
+button, input[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.button {
+  display: inline-block;
+  margin: 5px;
+  font-size: 1em;
+}
+
+.successMessage{
+  color: green;
+  margin-top: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.errorMessage{
+  color: red;
+  margin-top: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.actionName {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.actionButton {
+  display: block;
+  margin: 0 auto 30px;
+}
+
+/* Table Styling */
+.table {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table th, .table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f4f4f9;
+  font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tr:hover {
+  background-color: #f1f1f1;
+}
